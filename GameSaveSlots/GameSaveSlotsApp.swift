@@ -12,7 +12,7 @@ import SwiftData
 struct GameSaveSlotsApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self, GameSave.self
+            GameSave.self, User.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -26,7 +26,10 @@ struct GameSaveSlotsApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            GameSaveSlotsView()
+            NavigationStack{
+                UserListView()
+            }
+            
         }
         
         .modelContainer(sharedModelContainer)

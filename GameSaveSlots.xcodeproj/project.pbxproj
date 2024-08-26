@@ -97,8 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				CA8B91292C7D07FE000589EA /* GameSaveSlotsApp.swift */,
-				CA8B912B2C7D07FE000589EA /* ContentView.swift */,
 				CA8B912D2C7D07FE000589EA /* Item.swift */,
+				CA8B912B2C7D07FE000589EA /* ContentView.swift */,
 				CA8B912F2C7D07FF000589EA /* Assets.xcassets */,
 				CA8B91312C7D07FF000589EA /* Preview Content */,
 			);
